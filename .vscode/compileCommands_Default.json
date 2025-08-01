@@ -1,41 +1,57 @@
 [
 	{
-		"file": "C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\Source\\BootyBlast\\BootyBlast.Build.cs",
+		"file": "D:\\Projects\\Unreal\\BootyBlast\\Source\\BootyBlast\\BasicAttributeSet.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
+			"@D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
 		],
 		"directory": "D:\\EpicGames\\Unreal Engine\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\Source\\BootyBlast\\BootyBlast.cpp",
+		"file": "D:\\Projects\\Unreal\\BootyBlast\\Source\\BootyBlast\\BasicAttributeSet.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
+			"@D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
 		],
 		"directory": "D:\\EpicGames\\Unreal Engine\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\Source\\BootyBlast\\BootyBlast.h",
+		"file": "D:\\Projects\\Unreal\\BootyBlast\\Source\\BootyBlast\\BootyBlast.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
+			"@D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
 		],
 		"directory": "D:\\EpicGames\\Unreal Engine\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\Source\\BootyBlast\\GASTestCharacter.cpp",
+		"file": "D:\\Projects\\Unreal\\BootyBlast\\Source\\BootyBlast\\BootyBlast.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
+			"@D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
 		],
 		"directory": "D:\\EpicGames\\Unreal Engine\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\Source\\BootyBlast\\GASTestCharacter.h",
+		"file": "D:\\Projects\\Unreal\\BootyBlast\\Source\\BootyBlast\\BootyBlast.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
+			"@D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
+		],
+		"directory": "D:\\EpicGames\\Unreal Engine\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Projects\\Unreal\\BootyBlast\\Source\\BootyBlast\\GASTestCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
+		],
+		"directory": "D:\\EpicGames\\Unreal Engine\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Projects\\Unreal\\BootyBlast\\Source\\BootyBlast\\GASTestCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default\\BootyBlast.1.rsp"
 		],
 		"directory": "D:\\EpicGames\\Unreal Engine\\UE_5.6\\Engine\\Source"
 	}

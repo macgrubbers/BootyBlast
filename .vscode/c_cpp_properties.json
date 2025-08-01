@@ -2,17 +2,12 @@
     "configurations": [
         {
             "name": "BootyBlastEditor Editor Win64 Development (BootyBlast)",
-            "includePath": [ 
-                "${workspaceFolder}\\Intermediate\\**", 
-                "${workspaceFolder}\\Plugins\\**", 
-                "${workspaceFolder}\\Source\\**" 
-            ],
             "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
             "compileCommands": [
-                "C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\.vscode\\compileCommands_BootyBlast.json"
+                "D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_BootyBlast.json"
             ]
         },
         {
@@ -22,7 +17,7 @@
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
             "compileCommands": [
-                "C:\\Users\\mckay\\Documents\\Unreal Projects\\BootyBlast\\.vscode\\compileCommands_Default.json"
+                "D:\\Projects\\Unreal\\BootyBlast\\.vscode\\compileCommands_Default.json"
             ]
         }
     ],
