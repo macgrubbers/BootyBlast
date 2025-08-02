@@ -27,7 +27,15 @@ class BOOTYBLAST_API UBasicAttributeSet : public UAttributeSet
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, Health);
 
 		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+		FGameplayAttributeData MaxHealth;
+		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, MaxHealth);
+
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
 		FGameplayAttributeData Stamina;
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, Stamina);
+
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+		FGameplayAttributeData MaxStamina;
+		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, MaxStamina);
 	
 };
