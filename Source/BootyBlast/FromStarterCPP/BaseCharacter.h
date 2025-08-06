@@ -2,38 +2,29 @@
 
 #pragma once
 
-#include "AbilitySystemInterface.h"
-#include "BaseAbilitySystemComponent.h"
-#include "BasicAttributeSet.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "AbilitySystemInterface.h"
 #include "GameplayTagContainer.h"
-#include "GASTestCharacter.generated.h"
+#include "BaseCharacter.generated.h"
 
 UCLASS()
-class BOOTYBLAST_API AGASTestCharacter : public ACharacter, public IAbilitySystemInterface
+class BOOTYBLASTCPP_API ABaseCharacter : public ACharacter, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
-	AGASTestCharacter();
+	ABaseCharacter();
 
-	// Ability system component interface
 	virtual class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 protected:
-
-	// Add our ability system components using
-	UPROPERTY()
-	TWeakObjectPtr<class UBaseAbilitySystemComponent> AbilitySystemComponent;
-	UPROPERTY()
-	TWeakObjectPtr<class UBasicAttributeSet> AttributeSetBase;
-
-
-	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	TWeakObjectPtr<class UAbilitySystemComponent> AbilitySystemComponent;
+	TWeakObjectPtr<class UAttributeSetBase> AttributeSetBase;
 
 public:	
 	// Called every frame
@@ -41,5 +32,8 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UFUNCTION()
+	void Die();
 
 };

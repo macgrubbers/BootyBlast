@@ -21,10 +21,10 @@ void AGASTestCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	//
-	if (IsValid(AbilitySystemComponent))
-	{
-		BasicAttributeSet = AbilitySystemComponent->GetSet<UBasicAttributeSet>();
-	}
+	// if (IsValid(AbilitySystemComponent))
+	// {
+	// 	BasicAttributeSet = AbilitySystemComponent->GetSet<UBasicAttributeSet>();
+	// }
 	
 }
 
@@ -35,10 +35,14 @@ void AGASTestCharacter::Tick(float DeltaTime)
 
 }
 
+UAbilitySystemComponent * AGASTestCharacter::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
 // Called to bind functionality to input
 void AGASTestCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-

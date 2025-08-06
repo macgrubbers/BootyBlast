@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "AttributeSet.h"
 #include "AbilitySystemComponent.h"
+#include "GameplayTagContainer.h"
 #include "BasicAttributeSet.generated.h"
 
 // Accessors macros
@@ -22,20 +23,23 @@ class BOOTYBLAST_API UBasicAttributeSet : public UAttributeSet
 
 
 	public:
-		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+		// BASE ATTRIBUTES
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes") //, ReplicatedUsing = OnRep_Health)
 		FGameplayAttributeData Health;
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, Health);
 
-		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes") //, ReplicatedUsing = OnRep_MaxHealth)
 		FGameplayAttributeData MaxHealth;
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, MaxHealth);
 
-		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes") //, ReplicatedUsing = OnRep_Stamina)
 		FGameplayAttributeData Stamina;
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, Stamina);
 
-		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes") //, ReplicatedUsing = OnRep_MaxStamina)
 		FGameplayAttributeData MaxStamina;
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, MaxStamina);
+
+		virtual void PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data) override;
 	
 };
