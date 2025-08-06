@@ -28,6 +28,7 @@ class BOOTYBLAST_API UBasicAttributeSet : public UAttributeSet
 		FGameplayAttributeData Health;
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, Health);
 
+<<<<<<< HEAD
 		UPROPERTY(BlueprintReadOnly, Category = "Attributes") //, ReplicatedUsing = OnRep_MaxHealth)
 		FGameplayAttributeData MaxHealth;
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, MaxHealth);
@@ -41,5 +42,10 @@ class BOOTYBLAST_API UBasicAttributeSet : public UAttributeSet
 		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, MaxStamina);
 
 		virtual void PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data) override;
+=======
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+		FGameplayAttributeData Stamina;
+		ATTRIBUTE_ACCESSORS(UBasicAttributeSet, Stamina);
+>>>>>>> parent of e2ed680 (mfers we got a real simple ability system goin)
 	
 };
